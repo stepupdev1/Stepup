@@ -2426,3 +2426,10 @@ p {
 p {
   line-height: 1.75;
 }
+
+@media (min-width: 768px) {
+  .third-section-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 0;
+  }
+}
